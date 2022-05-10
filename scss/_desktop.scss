@@ -21,7 +21,7 @@
     }
 }
 .presentacion{
-    background-image: url("/media/fondo.png");
+    background-image: url(../media/fondo.png);
     background-size:cover; 
     background-repeat:  no-repeat;
     margin-left: -141px;
@@ -145,13 +145,13 @@ h2{
     align-items: center;
 }
 .carousel-control-next-icon{
-    background-image: url("/media/flecha.svg");
+    background-image: url(../media/flecha.svg);
     background-color: transparent;
     opacity: 100%;
     margin-left: 100px;
 }
 .carousel-control-prev-icon{
-    background-image: url(/media/flecha2.svg);
+    background-image: url(../media/flecha2.svg);
     background-color: transparent;
     margin-left: -200px;
 }
