@@ -1,0 +1,42 @@
+
+$font: 'Questrial', sans-serif;
+$azul: #164661;
+$celeste: #498cb2;
+$blanco: #ffffff;
+$violeta: #840FD1;
+
+//background: rgb(22,70,97);
+//background: linear-gradient(90deg, rgba(22,70,97,1) 0%, rgba(132,15,209,1) 100%);
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: $font;
+    color: $azul;
+    line-height: 1.6;
+    background-color: $blanco;
+}
+
+a{
+    text-decoration: none;
+}
+.navbar-dark .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 127, 48, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.navbar-dark .navbar-toggler{
+    color: $azul;
+    border-color: $violeta;
+    border: 0.5px solid;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.10rem;
+}
+@import "index";
+
+@media only screen and (min-width: 600px){
+    @import "tablet";
+}
+@media only screen and (min-width: 1024px){
+    @import "desktop";
+}
