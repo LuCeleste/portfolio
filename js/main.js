@@ -6,11 +6,13 @@ while (nombreIngresado !== "ESC"){
 }
 
 
-let edad = parseInt(prompt("Cual es tu edad"));
+let edad = parseInt(prompt("Cual es tu edad?"));
 do{
-alert("¡Pedir ayuda a un adulto!");
-break;
-}while(edad < 15)
+    if (edad < 14){
+    alert("¡Pedir ayuda a un adulto!");
+    break;}
+    let x =false
+}while(x=false)
 
 
 let numero = parseInt(prompt("Quiero saber la tabla del número... (ingrese un número)"))

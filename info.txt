@@ -1,0 +1,5 @@
+Desafío complementario Javascript:
+En el primer while la idea es pedir el nombre de la persona, siempre y cuando no escriba "ESC" se creará un alert con un saludo. Solo una vez, por eso el break.
+En el do while se pide la edad del usuario, y si es menor de 14 años, se crea un solo alert con la recomendación de pedir ayuda a un adulto.
+Y por último, para el for se pide un número y luego se brinda la tabla de multiplicar del mismo hasta el numero 10 en la consonla.
+
