@@ -1,14 +1,19 @@
-let nombreIngresado = prompt("Ingrese su nombre");
-let salida  = "¡Hola, " + nombreIngresado + "!";
-alert(salida);
-
-let numero = parseInt(prompt("Ingrese un número"));
-let numeroDos = 25;
-let resultadoNumeros  = numero + numeroDos ;
-alert(resultadoNumeros);
+let nombreIngresado = prompt("¿Como es tu nombre? Si no desea brindar esa información, escribir ESC");
+while (nombreIngresado !== "ESC"){
+    let salida  = "¡Hola, " + nombreIngresado + "!";
+    alert(salida);
+    break;
+}
 
 
-let textoUno = prompt("Dame un texto");
-let textoDos = prompt("Dame otro");
-let resultadoTextos  = textoUno + " " + textoDos ;
-alert(resultadoTextos);
+let edad = parseInt(prompt("Cual es tu edad"));
+do{
+alert("¡Pedir ayuda a un adulto!");
+break;
+}while(edad < 15)
+
+
+let numero = parseInt(prompt("Quiero saber la tabla del número... (ingrese un número)"))
+for(let i = 1; i <= 10; i++ ){
+    console.log(numero + " X " + i + " = " + numero*i )
+}
