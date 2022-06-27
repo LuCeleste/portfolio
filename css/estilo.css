@@ -28,6 +28,636 @@ a {
           box-shadow: 0 0 0 0.10rem;
 }
 
+.menu {
+  height: 80px;
+}
+
+.menu .logo {
+  z-index: 3;
+}
+
+.menu .logo img {
+  height: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #164661;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #498cb2;
+}
+
+.presentacion {
+  background-image: url(../media/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: transparent;
+  color: #ffffff;
+  width: 99vw;
+  height: 60vh;
+  margin-left: -10px;
+}
+
+.presentacion h1 {
+  padding-top: 50px;
+  font-size: 2rem;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.presentacion p {
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.presentacion a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.presentacion a:hover {
+  text-transform: uppercase;
+  color: #498cb2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 5px;
+  padding-bottom: 20px;
+}
+
+.servicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.servicio h3 {
+  text-align: center;
+  color: #164661;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.servicio ul {
+  list-style: "-";
+}
+
+.servicio img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.todoservicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.proyectos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.proyecto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.proyecto img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.proyecto h3 {
+  font-size: 1rem;
+}
+
+.proyecto a {
+  color: #840FD1;
+  font-size: 1rem;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.proyecto a:hover {
+  color: #498cb2;
+}
+
+.sobremiImagen img {
+  width: 250px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3rem;
+  border: solid;
+  border-width: 0.4rem;
+  border-color: #840FD1;
+}
+
+.sobremiTodo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sobremiTexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sobremiTexto p {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.formLogin {
+  padding: 10px;
+  width: 150px;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  margin: 2px;
+  border-width: 1px;
+}
+
+.form-control {
+  width: 304px;
+  height: 150px;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  margin: 2px;
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #498cb2;
+  border-color: #498cb2;
+  width: 100px;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #164661;
+  border-color: #164661;
+  width: 100px;
+  font-size: 1.2rem;
+}
+
+.todoContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contactoTexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.linksContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.bi {
+  color: #164661;
+  font-size: 1.5rem;
+  background-color: #830fd11e;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0.5rem;
+  margin-left: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+footer img {
+  width: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    width: 100%;
+  }
+  .menu {
+    height: 80px;
+    width: 100%;
+  }
+  .menu .logo {
+    z-index: 3;
+  }
+  .menu .logo img {
+    height: 60px;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #164661;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #498cb2;
+  }
+  .presentacion {
+    background-image: url(../media/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 99vw;
+    margin-left: -40px;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  .presentacion h1 {
+    padding-top: 80px;
+    font-size: 2rem;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  .presentacion p {
+    width: 550px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  .presentacion a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  .presentacion a:hover {
+    text-transform: uppercase;
+    color: #498cb2;
+  }
+  h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .servicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 250px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .servicio h3 {
+    text-align: center;
+    color: #164661;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .servicio ul {
+    list-style: "-";
+  }
+  .servicio img {
+    width: 100px;
+    height: 100px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .todoservicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .proyectos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .proyecto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+  }
+  .proyecto img {
+    width: 500px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .proyecto a {
+    color: #840FD1;
+    font-size: 1.5rem;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  .proyecto a:hover {
+    color: #498cb2;
+  }
+  .sobremiImagen img {
+    width: 250px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 3rem;
+    border: solid;
+    border-width: 0.4rem;
+    border-color: #840FD1;
+  }
+  .sobremiTodo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sobremiTexto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sobremiTexto p {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .formLogin {
+    padding: 10px;
+    width: 150px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin: 2px;
+    border-width: 1px;
+  }
+  .form-control {
+    width: 304px;
+    height: 150px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin: 2px;
+    resize: none;
+  }
+  .btn-primary {
+    background-color: #498cb2;
+    border-color: #498cb2;
+    width: 100px;
+    font-size: 1.2rem;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    margin-top: 10px;
+  }
+  .btn-primary:hover {
+    background-color: #164661;
+    border-color: #164661;
+    width: 100px;
+    font-size: 1.2rem;
+  }
+  .todoContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .contactoTexto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 1.5rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .linksContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .bi {
+    color: #164661;
+    font-size: 1.5rem;
+    background-color: #830fd11e;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer img {
+    width: 50px;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .menu {
     height: 80px;
@@ -59,9 +689,6 @@ a {
     background-image: url(../media/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: -141px;
-    width: 1580px;
-    height: 700px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -70,6 +697,9 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     background-color: transparent;
+    width: 99vw;
+    margin-left: -150px;
+    height: 100vh;
     color: #ffffff;
   }
   .presentacion h1 {
@@ -104,6 +734,50 @@ a {
     text-align: center;
     margin-top: 50px;
     padding-bottom: 20px;
+  }
+  .proyectos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .proyecto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+  }
+  .proyecto img {
+    width: 500px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .proyecto a {
+    color: #840FD1;
+    font-size: 1.5rem;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  .proyecto a:hover {
+    color: #498cb2;
   }
   .servicio {
     display: -webkit-box;
@@ -147,80 +821,6 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-  }
-  #proyectos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .slide {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    width: 1100px;
-  }
-  .carousel-caption {
-    position: absolute;
-    left: 450px;
-    width: 500px;
-  }
-  .carousel-item .carousel-caption {
-    font-size: 2rem;
-    text-transform: uppercase;
-  }
-  .carousel-item .carousel-caption h5 {
-    font-size: 2rem;
-    text-decoration: underline;
-  }
-  .carousel-item .carousel-caption a {
-    color: #498cb2;
-    font-size: 1.5rem;
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
-  }
-  .carousel-item .carousel-caption a:hover {
-    color: #840FD1;
-  }
-  .carousel-item img {
-    width: 350px;
-  }
-  .carousel-item.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .carousel-control-next-icon {
-    background-image: url(../media/flecha.svg);
-    background-color: transparent;
-    opacity: 100%;
-    margin-left: 100px;
-  }
-  .carousel-control-prev-icon {
-    background-image: url(../media/flecha2.svg);
-    background-color: transparent;
-    margin-left: -200px;
   }
   .sobremiImagen img {
     width: 350px;
@@ -359,9 +959,9 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   footer img {
     width: 100px;

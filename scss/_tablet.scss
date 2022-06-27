@@ -1,0 +1,237 @@
+header{
+    width: 100%;
+}
+.menu{
+    height: 80px;
+    width: 100%;
+    .logo{
+        z-index: 3;
+        img{
+        height: 60px;
+    }
+}
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:$azul;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    &:hover{
+        color: $celeste;
+    }
+}
+.presentacion{
+    background-image: url(../media/fondo.png);
+    background-size:cover; 
+    background-repeat:  no-repeat;
+    width: 99vw;
+    margin-left: -40px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: $blanco;
+    h1{
+        padding-top: 80px;
+        font-size: 2rem;
+        background-color: transparent;
+        color: $blanco;
+    }
+    p{
+        width: 550px;
+        font-size: 1.2rem;
+        background-color: transparent;
+        color: $blanco;
+    }
+    a{
+        color: $blanco;
+        font-size: 1.2rem;
+        background-color: transparent;
+        text-transform:uppercase;
+        transition-duration: 0.5s;
+        &:hover{
+            text-transform:uppercase;
+            color: $celeste;
+        }
+    }
+}
+
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    justify-content: flex-start;
+    h3{
+        text-align: center;
+        color: $azul;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    ul{
+        list-style: "-";
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+}
+.todoservicios{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.proyectos{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    img{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+    a{
+        color: $violeta;
+        font-size: 1.5rem;
+        transition-duration: 0.5s;
+        &:hover{
+            color: $celeste;
+        }
+}
+}
+
+
+
+
+
+
+
+
+
+.sobremiImagen{
+    img{
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 3rem;
+        border: solid;
+        border-width: 0.4rem;
+        border-color: $violeta;
+    }
+}
+.sobremiTodo{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.sobremiTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}
+
+
+.forms{
+    display: flex;
+    flex-direction: row;
+}
+.formLogin{
+    padding: 10px;
+    width: 150px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin: 2px;
+    border-width: 1px;
+}
+.form-control{
+    width: 304px;
+    height: 150px;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin: 2px;
+    resize: none;
+}
+
+
+
+.btn-primary{
+    background-color: $celeste;
+    border-color: $celeste;
+    width: 100px;
+    font-size: 1.2rem;
+    transition-duration: 0.5s;
+    margin-top: 10px;
+    &:hover{
+        background-color: $azul;
+        border-color: $azul;
+        width: 100px;
+        font-size: 1.2rem;
+    }
+}
+
+.todoContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contactoTexto{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+.linksContacto{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bi{
+    color: $azul;
+    font-size: 1.5rem;
+    background-color: #830fd11e;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 50px;
+    }
+}
