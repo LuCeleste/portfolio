@@ -14,8 +14,36 @@ do{
     let x =false
 }while(x=false)
 
+let fechaLimite = 25;
 
-let numero = parseInt(prompt("Quiero saber la tabla del número... (ingrese un número)"))
-for(let i = 1; i <= 10; i++ ){
-    console.log(numero + " X " + i + " = " + numero*i )
+const desdeCero = (fechaCliente) => {
+    if (fechaLimite < fechaCliente) {
+        alert('Podemos hacerlo! Contactame!');
+    } else{
+        alert(`Agenda llena! No tenemos tiempo para hacer tu proyecto antes de día${fechaLimite}`)
+    }
 }
+
+let opcion
+do{
+    opcion = parseInt(prompt('Ingrese una opción: \n\n 1- Quiero mi página web desde 0 \n\n 2- Quiero mantenimiento de mi página web \n\n 3- Otro'));
+    switch (opcion) {
+        case 1:
+            fechaCliente = parseInt(prompt('Para que día del mes de Julio esperas tu proyecto? (del 7 al 31)'));
+            desdeCero(fechaCliente);
+            break;
+        case 2:
+            alert('Contactame!')
+            break;
+        case 3:
+            alert('Contactame!')
+            break;
+    
+        default:
+            alert('Opción incorrecta')
+            break;
+    }
+} while( opcion !== 3) 
+
+
+
